@@ -1,0 +1,66 @@
+#content-container{
+    background-image: url('../public/img/bgconsole.jpg');
+    background-repeat: repeat;
+    background-size: 30%;
+}
+#judul{
+    
+   
+}
+#slider{
+  
+    
+}
+
+.judul-container{
+
+
+    box-sizing: content-box;
+    border-radius: 0.5rem;
+    font-family: cursive;
+
+    font-size: 3rem;
+}
+
+.btn {
+    border-radius: 1rem;
+}
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0.741);
+}
+
+.carousel{
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.f1{
+    font-family: cursive;
+
+    font-size: 2rem;
+}
+
+.waves-1 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 126px;
+}
+
+.waves-1 .shape-fill {
+    fill: #f6f8ffc1;
+}
+
+.img-btn-console{
+    width: 140%;
+    margin-left: auto;
+    margin-right: auto;
+}

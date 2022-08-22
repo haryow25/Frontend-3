@@ -1,0 +1,29 @@
+#judul {
+  background-color: #f6f8ffe5;
+  padding: 20px;
+  min-height: 100vh;
+}
+#list-game {
+  min-height: 100vh;
+  background-color: #f6f8ff69;
+  padding: 20px;
+}
+#register-page {
+  background-color: #334756;
+}
+#content-container {
+  background-image: url('../public/img/bgconsole.jpg');
+  background-repeat: repeat;
+  background-size: 30%;
+  font-family: cursive;
+}
+.img {
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10px;
+  padding-left: 20px;
+}

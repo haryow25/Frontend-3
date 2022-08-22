@@ -1,0 +1,1 @@
+export const GAME_DATA_LOADED = 'GAME_DATA_LOADED';

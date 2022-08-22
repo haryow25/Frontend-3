@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+.navbar {
+  background: #0a1f30;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbrand {
+  color: white;
+  font-size: 35px;
+  font-family: 'Road Rage', cursive;
+}
+
+.navbar .navbrand:hover {
+  color: white;
+  cursor: default;
+}
+
+.navbar .container .nav-links {
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.navbar .container .nav-links:hover {
+  color: #f00;
+}
+
+.navbar .login-btn {
+  background-color: #f00;
+  color: white;
+  border-radius: 1rem;
+}
+
+.navbar .login-btn:hover {
+  background-color: #03090e;
+}
+
+.navbar .dropdown-toggle {
+  background-color: #f00;
+  border-radius: 1rem;
+}
+
+.navbar .dropdown-toggle:hover {
+  background-color: #03090e;
+}
+
+.navbar .dropdown-toggle span {
+  color: white;
+}
+
+.navbar .dropdown-menu a {
+  color: #0a1f30;
+}
+
+/* Footer */
+footer {
+  background: #0a1f30;
+  color: white;
+  font-size: small;
+}
+
+/* Button Loader */
+.lds-dual-ring {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Login & Register */
+
+.auth-background {
+  background-image: url('../public/img/bgconsole.jpg');
+  background-repeat: repeat;
+  background-size: 30%;
+  color: #0a1f30;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  font-weight: 700;
+  margin-bottom: 0rem;
+  height: 222mm;
+}
+
+.wrapper form {
+  margin-top: -4rem;
+  padding: 2.5rem 3rem;
+  height: 34rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.wrapper .reg {
+  padding: 2.5rem 3rem;
+  height: 45rem;
+  margin-top: -3.5rem;
+  margin-bottom: -2.1rem;
+}
+
+.wrapper .forgot {
+  padding: 2rem 3rem;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.wrapper .reset {
+  padding: 2rem 3rem;
+  height: 27rem;
+  margin-top: 2rem;
+}
+
+.wrapper .reset .btn {
+  background-color: #f00;
+  border-color: white;
+  border-radius: 7px;
+  color: white;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.wrapper .forgot .btn {
+  background-color: #f00;
+  border-color: white;
+  border-radius: 7px;
+  color: white;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.wrapper form .btn {
+  background-color: #f00;
+  border-color: white;
+  border-radius: 7px;
+  color: white;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+
+.wrapper .reg .btn {
+  margin-top: -0.5rem;
+}
+
+.wrapper form a {
+  font-size: 0.9rem;
+  color: rgb(0, 0, 240);
+}
+
+/* Update Form */
+
+.update-background {
+  background-image: url('../public/img/bgconsole.jpg');
+  background-repeat: repeat;
+  background-size: 30%;
+  color: #0a1f30;
+  height: 280mm;
+}
+
+.wrapper .update-form form {
+  height: 58rem;
+  margin-top: 3rem;
+}
+
+/* Profile Details */
+.profile-bg-image {
+  background-image: url('../public/img/bgconsole.jpg');
+  background-repeat: repeat;
+  background-size: 30%;
+  color: #0a1f30;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-background {
+  background-color: #f6f8ffe3;
+  border-radius: 7rem;
+  width: 100%;
+  height: 222mm;
+}
+
+.profile-bg-image .btn {
+  background-color: #f00;
+  border-radius: 7px;
+  color: white;
+  font-size: larger;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.img {
+  border-radius: 50%;
+  border: 5px solid #0a1f30;
+  background-color: lightgray;
+}
+
+/* Home */
+.home-bg-image {
+  background-image: url('../public/img/bgconsole.jpg');
+  background-repeat: repeat;
+  background-size: 30%;
+  color: #0a1f30;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-background {
+  width: 100%;
+  height: 222mm;
+}
+
+.home-box {
+  background-color: #f6f8ffe3;
+  border-radius: 3rem;
+}
+
+.home-box h1 {
+  font-size: 60px;
+}
+
+.home-box p {
+  font-size: 20px;
+}
+
+.home-box .btn {
+  background-color: #f00;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.home-img img {
+  border: solid #0a1f30;
+  border-width: 2mm;
+  border-radius: 10rem;
+  height: 220px;
+  transition: 0.5s ease;
+  margin-bottom: 5rem;
+}
+
+.home-img img:hover {
+  height: 240px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.home-img .img-margin {
+  margin-left: 10mm;
+}
+
+.home-background h3 {
+  font-size: 30pt;
+}
+
+.game-list-bg {
+  background-image: url('../public/img/bgconsole.jpg');
+}
+
+.home-box {
+  background-color: #f6f8ffe3;
+  border-radius: 3rem;
+}
+
+.home-box h1 {
+  font-size: 60px;
+}
+
+.home-box p {
+  font-size: 20px;
+}
+
+.home-box .btn {
+  background-color: #f00;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.home-img img {
+  border: solid #0a1f30;
+  border-width: 2mm;
+  border-radius: 10rem;
+  height: 220px;
+  transition: 0.5s ease;
+  margin-bottom: 5rem;
+}
+
+.home-img img:hover {
+  height: 240px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.home-img .img-margin {
+  margin-left: 10mm;
+}
+
+.home-background h3 {
+  font-size: 30pt;
+}
+
+.game-list-bg {
+  background-image: url('../public/img/bgconsole.jpg');
+}
